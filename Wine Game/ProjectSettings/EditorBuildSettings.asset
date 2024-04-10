@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: db210910be1de804793e44f42e0ec226
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/JapanLvl.unity
+    guid: 056186e7d9072f54fa607bbb7e585183
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/PennLvl.unity
+    guid: 6c379f41582aee841b52a6bd96dc09e6
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/LebanonLvl.unity
+    guid: 90fad08dd49e28b45b1845e18612c680
   m_configObjects: {}
