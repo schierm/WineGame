@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 
 public class QuestionLogic : MonoBehaviour
 {
-    AudioSource audio;
 
 
 

@@ -5295,10 +5295,10 @@ MonoBehaviour:
   - {fileID: 2031811159}
   - {fileID: 1030079500}
   - {fileID: 36194549}
-  - {fileID: 36194549}
-  - {fileID: 36194549}
-  - {fileID: 36194549}
-  - {fileID: 36194549}
+  - {fileID: 1551008657}
+  - {fileID: 1911039144}
+  - {fileID: 2112336829}
+  - {fileID: 154039898}
   endScreen: {fileID: 2087512943}
   flashScreen: {fileID: 2120262340}
   currentQuestion: 0
