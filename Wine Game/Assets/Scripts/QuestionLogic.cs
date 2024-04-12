@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using System;
+using TMPro;
 
 public class QuestionLogic : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class QuestionLogic : MonoBehaviour
     int correctAnswers = 0;
 
     int incorrectAnswers = 0;
+
+    public TMP_Text scoreText;
 
     public void Start()
     {
@@ -63,7 +66,7 @@ public class QuestionLogic : MonoBehaviour
     public void SlideChange()
     {
         
-        if (currentQuestion + 1 <= nextInfo.Length)
+        if (currentQuestion + 1 < nextInfo.Length)
         {
             Debug.Log("Slide Change " + currentQuestion);
             nextInfo[currentQuestion].SetActive(false);
@@ -81,6 +84,7 @@ public class QuestionLogic : MonoBehaviour
             Debug.Log("Next Info Length" + nextInfo.Length);
             nextInfo[currentQuestion].SetActive(false);
 
+            scoreText.text = correctAnswers + "/5";
             endScreen.SetActive(true);
         }
     }
