@@ -8,6 +8,8 @@ public class LebanonManager : MonoBehaviour
 {
     public GameObject[] infoText;
 
+    public QuestionLogic questionLogic;
+
     public GameObject questionSlide;
     public TMP_Text questionTitle;
     public TMP_Text questionText;
