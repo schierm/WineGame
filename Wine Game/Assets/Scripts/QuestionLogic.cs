@@ -6,6 +6,9 @@ using System;
 
 public class QuestionLogic : MonoBehaviour
 {
+    AudioSource audio;
+
+
 
     [SerializeField]
     public GameObject[] nextInfo;
