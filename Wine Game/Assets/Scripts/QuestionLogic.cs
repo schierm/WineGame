@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class QuestionLogic : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class QuestionLogic : MonoBehaviour
     int incorrectAnswers = 0;
 
     public TMP_Text scoreText;
+
 
     public void Start()
     {
@@ -87,6 +89,11 @@ public class QuestionLogic : MonoBehaviour
             scoreText.text = correctAnswers + "/5";
             endScreen.SetActive(true);
         }
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu"); 
     }
 
 }
