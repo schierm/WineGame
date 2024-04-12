@@ -8,6 +8,9 @@ using UnityEngine.SceneManagement;
 
 public class QuestionLogic : MonoBehaviour
 {
+    AudioSource audio;
+
+
 
     [SerializeField]
     public GameObject[] nextInfo;
